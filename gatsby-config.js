@@ -9,7 +9,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `Miho Yamagata`,
     siteTitleAlt: `Miho Yamagata`,
-    siteHeadline: `Minimal blog & portfolio site from Miho Yamagata`,
+    siteHeadline: `Miho Yamagata`,
     siteUrl: `https://minimal-blog.lekoarts.de`,
     siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
     siteLanguage: `en`,
@@ -37,8 +37,12 @@ module.exports = {
             url: `https://twitter.com/miho_norge`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/miho-yamagata-50b4a4113/`,
+          },
+          {
+            name: `GitHub`,
+            url: `https://github.com/homiii116`,
           },
         ],
       },
@@ -64,7 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `portfolio & blog site - Miho Yamagata`,
+        name: `Miho Yamagata`,
         short_name: `Miho Yamagata`,
         description: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
         start_url: `/`,
@@ -131,7 +135,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `portfolio & blog site - Miho Yamagata`,
           },
         ],
       },
@@ -144,6 +148,21 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 700,
+            },
+          },
+        ],
+      },  
     },
   ].filter(Boolean),
 }
