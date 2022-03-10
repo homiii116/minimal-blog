@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `Miho Yamagata`,
     siteTitleAlt: `Miho Yamagata`,
     siteHeadline: `Miho Yamagata`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteUrl: `http://localhost:8000`,
     siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
