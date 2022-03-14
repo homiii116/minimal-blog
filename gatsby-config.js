@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `http://localhost:8000`,
     siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.jpeg`,
     author: `@miho_norge`,
   },
   plugins: [
@@ -79,14 +79,14 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/android-chrome-192x192.jpeg`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/jpeg`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-chrome-512x512.jpeg`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/jpeg`,
           },
         ],
       },
