@@ -5,13 +5,9 @@ import * as React from "react"
 
 // Size presets, defined by Spotify
 const sizePresets = {
-  large: {
-    width: 300,
-    height: 380,
-  },
-  compact: {
-    width: 300,
-    height: 80,
+  default: {
+    width: 360,
+    height: 220,
   },
 }
 
@@ -20,7 +16,7 @@ function Grammar({ size }) {
     <iframe
       title="Spotify"
       className="SpotifyPlayer"
-      src={`https://dl.dropboxusercontent.com/s/llyav3wtu2s99di/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.mp4`}
+      src={`https://dl.dropboxusercontent.com/s/syfv70f0kcsfnr8/%E6%96%87%E6%B3%95%E7%B7%B4%E7%BF%92.mp4`}
       width={sizePresets[size].width}
       height={sizePresets[size].height}
       frameBorder="0"
