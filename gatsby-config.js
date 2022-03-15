@@ -11,7 +11,7 @@ module.exports = {
     siteTitleAlt: `Miho Yamagata`,
     siteHeadline: `Miho Yamagata`,
     siteUrl: `https://mihoyamagata.dev`,
-    siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
+    siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & blog site`,
     siteLanguage: `en`,
     siteImage: `/banner.png`,
     author: `@miho_norge`,
