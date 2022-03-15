@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://mihoyamagata.dev`,
     siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpeg`,
+    siteImage: `/banner.png`,
     author: `@miho_norge`,
   },
   plugins: [
