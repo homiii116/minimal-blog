@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://mihoyamagata.dev">
-    <img alt="LekoArts" src="./static/profile-pic.png" />
+    <img alt="LekoArts" src="./static/banner.png" />
   </a>
 </p>
 <h1 align="center">
