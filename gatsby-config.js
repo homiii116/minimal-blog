@@ -38,7 +38,7 @@ module.exports = {
           },
           {
             name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/miho-yamagata-50b4a4113/`,
+            url: `https://www.linkedin.com/in/miho-yamagata/`,
           },
           {
             name: `GitHub`,
