@@ -20,7 +20,7 @@ This article introduces how to modify Gatsby theme, and what "Shadowing" is.
 There is a function to modify componetns and files in Gatsby. 
 Simply it's called "Shadowing" when you want to customize Gatsby themes.
 
-You basically don't touch original files, but make new files to override the original files.
+You basically don't modiy original files directly, but make new files to override the original files.
 
 Here is more information about shadowing.
 [Shadowing in Gatsby Theme](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/)
@@ -44,7 +44,7 @@ yoursite/src/@lekoarts/gatsby-theme-minimal-blog
 ### Copy the file
 If you put components or files into ```yoursite/src/@lekoarts/gatsby-theme-minimal-blog``` which are same names as original one, you can customize the Gatsby theme.
 
-This time, you modify ```footer.tsx``` in components folder, so you need to create ```components``` folder first.
+This time, you modify ```footer.tsx``` in ```components``` folder, so you need to create ```components``` first.
 
 ```
 yoursite/src/@lekoarts/gatsby-theme-minimal-blog/components
@@ -154,8 +154,8 @@ Before:
 After:
 ![after](./modify.png)
 
-Of course, you can make any changes wherever you want, and you can even use JS file if you don't write TypesSript :)
+Of course, you can make any changes wherever you want, and you can even use JS file if you don't write TypeSript :)
 
 ## Conclusion
 I still learn a lot about GatsbyJS, but I'm happy if this article helps.
-Gatsby theme is poweful, and I would try to customize more themes or make original themes :)
+Gatsby theme is dynamic and poweful. I would try to customize more themes or make original themes :)
