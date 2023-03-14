@@ -7,11 +7,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Miho Yamagata`,
-    siteTitleAlt: `Miho Yamagata`,
-    siteHeadline: `Miho Yamagata`,
-    siteUrl: `https://mihoyamagata.dev`,
-    siteDescription: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & blog site`,
+    siteTitle: `Miho Jensen`,
+    siteTitleAlt: `Miho Jensen`,
+    siteHeadline: `Miho Jensen`,
+    siteUrl: `https://mihojen.dev`,
+    siteDescription: `Miho Jensen, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & blog site`,
     siteLanguage: `en`,
     siteImage: `/banner.png`,
     author: `@miho_norge`,
@@ -68,9 +68,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Miho Yamagata`,
-        short_name: `Miho Yamagata`,
-        description: `Miho Yamagata, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
+        name: `Miho Jensen`,
+        short_name: `Miho Jensen`,
+        description: `Miho Jensen, a front-end developer, from Japan, living in Norway. Introducing herself on this portfolio & Blog site`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -135,7 +135,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `portfolio & blog site - Miho Yamagata`,
+            title: `portfolio & blog site - Miho Jensen`,
           },
         ],
       },
