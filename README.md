@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://mihoyamagata.dev">
+  <a href="https://mihojen.dev">
     <img alt="LekoArts" src="./static/banner.png" />
   </a>
 </p>
 <h1 align="center">
-  mihoyamagata.dev
+  mihojen.dev
 </h1>
 
 This is my personal blog site, built using Gatsby Theme [`@lekoarts/gatsby-theme-minimal-blog`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-minimal-blog), and I added some modifications.
