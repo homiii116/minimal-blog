@@ -33,12 +33,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
+            name: `X`,
             url: `https://twitter.com/miho_norge`,
           },
           {
             name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/miho-yamagata/`,
+            url: `https://www.linkedin.com/in/miho-jensen/`,
           },
           {
             name: `GitHub`,
