@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://mihojen.dev">
-    <img alt="LekoArts" src="./static/banner.png" />
-  </a>
-</p>
 <h1 align="center">
   mihojen.dev
 </h1>
