@@ -37,11 +37,11 @@ module.exports = {
             url: `https://twitter.com/miho_norge`,
           },
           {
-            name: `LinkedIn`,
+            name: `Linkedin`,
             url: `https://www.linkedin.com/in/miho-jensen/`,
           },
           {
-            name: `GitHub`,
+            name: `Github`,
             url: `https://github.com/homiii116`,
           },
         ],
